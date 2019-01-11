@@ -2,6 +2,8 @@ package leonid_ivanov.runner;
 
 import leonid_ivanov.payment_card.PaymentCard;
 import leonid_ivanov.payment_card.PaymentCardGenerator;
+import leonid_ivanov.payment_card.mastercard.PaymentCardMastercard;
+import leonid_ivanov.payment_card.mastercard.PaymentCardMastercardElectronic;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
@@ -25,9 +27,7 @@ public class Runner {
     }
 
     public void startApplication(String[] args) {
-        System.out.println(Thread.currentThread().getContextClassLoader());
         PaymentCardGenerator paymentCardGenerator = null;
-
         try {
             paymentCardGenerator = new PaymentCardGenerator(args[0],
                     Integer.parseInt(args[1]));

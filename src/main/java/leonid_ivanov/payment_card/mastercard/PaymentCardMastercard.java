@@ -12,16 +12,19 @@ import java.util.Random;
  */
 public abstract class PaymentCardMastercard extends PaymentCard {
 
-	private static final int IIN_COUNT_2 = 2;
-	private static final int IIN_COUNT_4 = 4;
-	private static final int PCN_COUNT = 20;
-	private static final int IIN_5 = 5;
-	private static final int IIN_3 = 3;
-	private static final int IIN_1 = 1;
-	private static final int IIN_1O = 10;
-	private static final int IIN_2720 = 2720;
-	private static final int IIN_2221 = 2221;
-	private static final String PAYMENT_SYSTEM = "Mastercard";
+	public static final int IIN_COUNT_2 = 2;
+	public static final int IIN_COUNT_4 = 4;
+	public static final int PCN_COUNT = 20;
+	public static final int IIN_5 = 5;
+	public static final int IIN_3 = 3;
+	public static final int IIN_1 = 1;
+	public static final int IIN_1O = 10;
+	public static final int IIN_2720 = 2720;
+	public static final int IIN_2221 = 2221;
+	public static final int IIN_51 = 51;
+	public static final int IIN_55 = 55;
+
+	public static final String PAYMENT_SYSTEM = "Mastercard";
 
 	/**
 	 * Constructor of class PaymentCardMastercard

@@ -10,6 +10,8 @@ import leonid_ivanov.payment_card.visa.PaymentCardVisaClassic;
 import leonid_ivanov.payment_card.visa.PaymentCardVisaElectron;
 import leonid_ivanov.payment_card.visa.PaymentCardVisaGold;
 
+import java.util.HashMap;
+
 public enum PaymentCardType {
 	VISA_CLASSIC(PaymentCardVisaClassic.class),
 	VISA_ELECTRON(PaymentCardVisaElectron.class),
