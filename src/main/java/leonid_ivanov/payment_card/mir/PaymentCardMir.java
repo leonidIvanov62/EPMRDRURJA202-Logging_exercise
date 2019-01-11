@@ -17,6 +17,8 @@ public abstract class PaymentCardMir extends PaymentCard {
 	private static final int IIN_5 = 5;
 	private static final int IIN_2 = 2;
 	private static final int IIN_0 = 0;
+	public  static final int IIN_2200 = 2200;
+	public  static final int IIN_2204 = 2204;
 	private static final String PAYMENT_SYSTEM = "Mir";
 
 	/**

@@ -32,6 +32,17 @@ public class PaymentCardMastercardTest {
     }
 
 
+    /**
+     * Test payment card payment system type
+     */
+    @Test
+    public void testPaymentSystemMasterCardElectronicCard() {
+        final String mastercardPaymentType;
+        mastercardPaymentType = "Mastercard";
+        assertEquals(mastercardPaymentType,
+                paymentCardMastercard.getPaymentSystem());
+    }
+
     @Test
     public void testMasterCardIIN() {
         assertTrue(checkTwoNumberIIN() || checkFourNumberIIN());
